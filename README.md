@@ -19,7 +19,7 @@ Apple Silicon Mac, macOS 11 or later. The app updates itself from [latest.json](
 
 ## Reporting a bug
 
-[Open an issue](https://github.com/bhirbec/squad33-releases/issues/new/choose). The template asks for the version, the agent, what you said and what happened. **Share log** in the app copies the log to attach.
+[Open an issue](https://github.com/bhirbec/squad33-releases/issues/new/choose). The template asks for the version, the agent, what you said and what happened. **Share log**, in the app under Admin, Log, uploads your log and shows a key to paste in the report.
 
 Or write to hey@squad33.ai.
 

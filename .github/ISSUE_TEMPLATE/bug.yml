@@ -47,5 +47,4 @@ body:
     id: log
     attributes:
       label: Log
-      description: In the app, Share log copies it. Paste it here, or attach the file.
-      render: text
+      description: In the app, Admin, Log pane, press Share log. It uploads the log and shows a key. Paste the key here.
