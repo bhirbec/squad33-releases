@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in Squad33 did not do what you expected.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Squad33 version
+      description: In the app menu, About Squad33.
+      placeholder: 0.16.2
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.6"
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Coding agent
+      options:
+        - Claude Code
+        - Opencode
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: said
+    attributes:
+      label: What you said or did
+      description: The ticket, the voice command, or the click. Word for word if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: In the app, Share log copies it. Paste it here, or attach the file.
+      render: text
