@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.19.0 — 2026-11-24
+
+- Signing in now happens in your browser: the app opens your default browser, reuses a squad33.ai sign-in you already have, and brings you back. The sign-in form inside the app is gone.
+- A Pro plan you already have is restored on this Mac by signing in with the account that holds it.
+- Changes to your Pro plan reach the running app within seconds, with no restart or refresh.
+
 ## 0.17.0 — 2026-09-14
 
 - Report a bug from the app, and read what changed in each release, both from the footer.
